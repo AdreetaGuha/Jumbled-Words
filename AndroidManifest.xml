@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jumbledwords"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finalogo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+        <activity
+            android:name=".Welcomepage"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PAGE2"
+            android:label="@string/title_activity_page2" >
+        </activity>
+        <activity
+            android:name=".Trial"
+            android:label="@string/title_activity_trial"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".TWO"
+            android:label="@string/title_activity_two" >
+        </activity>
+        <activity
+            android:name=".THREE"
+            android:label="@string/title_activity_three" >
+        </activity>
+        <activity
+            android:name=".WordTrail7"
+            android:label="@string/title_activity_word_trail7"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".DemoRun"
+            android:label="@string/title_activity_demo_run"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name=".calling" >
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name=".WifiDemo"
+            android:label="@string/title_activity_wifi_demo" >
+        </activity>
+        <activity
+            android:name=".TrialFive"
+            android:label="@string/title_activity_trial_five"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Greeting"
+            android:label="@string/title_activity_greeting"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Instructions"
+            android:screenOrientation="landscape" 
+            android:label="@string/title_activity_instructions" >
+        </activity>
+    </application>
+
+</manifest>
